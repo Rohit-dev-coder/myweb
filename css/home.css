@@ -1,0 +1,23 @@
+
+.navbar{
+    font-family: 'Akaya Telivigala', cursive;
+    color: white;
+}
+
+.navbar-brand{
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-top: 15px;   
+}
+
+.navbar-toggler{
+    background-color: white; 
+}
+
+.nav-item{
+    font-size: x-large;
+}
+
+.navbar-nav{
+    align: right;
+}
