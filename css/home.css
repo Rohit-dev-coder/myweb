@@ -1,32 +1,38 @@
-
-.navbar{
+.navbar {
     font-family: 'Akaya Telivigala', cursive;
     color: white;
 }
 
-.navbar-brand{
+.navbar-brand {
     font-size: xx-large;
     font-weight: bolder;
-    margin-top: 15px;   
 }
 
-.navbar-toggler{
-    background-color: white; 
+.navbar-toggler {
+    background-color: white;
 }
 
-.nav-item{
+.nav-item {
     font-size: x-large;
 }
 
-.navbar-nav{
+.navbar-nav {
     align: right;
 }
 
-
-#config1{
+#config1 {
     height: 500px;
     padding-top: 200px;
     text-align: center;
     font-family: 'Syne Mono', monospace;
     color: white;
 }
+
+.sticky {
+    position: fixed;
+    width: 100%;
+    margin-left: -15px;
+    background: -webkit-linear-gradient(to right, #141e30, #243b55); /* Chrome 10-25, Safari 5.1-6 */    
+    background-image: linear-gradient(to right, #141e30, #243b55);
+}
+

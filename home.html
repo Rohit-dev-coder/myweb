@@ -38,7 +38,7 @@
     </div>
 
     <div class="container-fluid">
-        <nav class="navbar navbar-expand-md sticky-top">
+        <nav class="navbar navbar-expand-md" id="myconfig0">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
                 aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                 <!-- <span class="navbar-toggler-icon" id="tooglebtn"></span> -->
@@ -47,7 +47,7 @@
             </button>
             <a class="navbar-brand">Rohit Jarariya</a>
 
-            <div class="collapse navbar-collapse" id="navbarText" >
+            <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
                         <a class="nav-link" href="#" style="color: #ffd460;">
@@ -83,9 +83,12 @@
     </div>
 
 
-    
+
     <div class="container-fluid mt-4">
-        
+        <p>dsfjdfls</p><br>
+        <p>dsfjdfls</p><br>
+        <p>dsfjdfls</p><br>
+     
     </div>
 
 
@@ -104,7 +107,19 @@
                 btn.setAttribute('src', './icons/outline_menu_black_24dp.png');
                 t_bool = false;
             }
+        }
+        window.onscroll = function () {
+            myFunction()
+        };
 
+        var header = document.getElementById("myconfig0");
+        var sticky = header.offsetTop;
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
         }
     </script>
 
