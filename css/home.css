@@ -16,9 +16,11 @@
     font-size: x-large;
 }
 
+
 .navbar-nav {
-    align: right;
+    /* align: right; */
 }
+
 
 #config1 {
     height: 500px;
@@ -28,11 +30,36 @@
     color: white;
 }
 
-.sticky {
+ .sticky {
     position: fixed;
     width: 100%;
     margin-left: -15px;
-    background: -webkit-linear-gradient(to right, #141e30, #243b55); /* Chrome 10-25, Safari 5.1-6 */    
+    background: -webkit-linear-gradient(to right, #141e30, #243b55); 
     background-image: linear-gradient(to right, #141e30, #243b55);
+} 
+
+
+#config2{
+    background-color: white;
+    height: 500px ;
+    padding: 150px 20px;
+    text-align: center;
+    font-size: large;
+    font-family: 'Open Sans', sans-serif;e;
 }
 
+@media only screen and (max-width: 600px) {
+    #navbarText{
+        position: absolute;
+        margin-top: 220px;
+        width: 150px;
+        background-color: #141e30 ;
+    }
+}
+
+@media only screen and (min-width: 800px){
+    #config2{
+        padding: 150px 200px;
+        font-size: x-large;
+    }
+}
