@@ -20,6 +20,20 @@
 .navbar-nav {
     /* align: right; */
 }
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background-color: #142850;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color: #27496d;
+}
+::-webkit-scrollbar-thumb:hover{
+    border-radius: 10px;
+    background-color: #00909e;
+}
 
 .navbar-collapse {}
 
@@ -30,7 +44,8 @@
 
 #config1 {
     height: 100%;
-    padding: 200px 0px;
+    padding-top: 200px;
+    padding-bottom: 290px;
     text-align: center;
     font-family: 'Syne Mono', monospace;
     color: white;
@@ -48,7 +63,7 @@
 #config2 {
     background-color: white;
     height: 500px;
-    padding: 150px 20px;
+    padding: 0px 25px;
     text-align: center;
     font-size: large;
     font-family: 'Open Sans', sans-serif;
@@ -71,7 +86,7 @@
 
 @media only screen and (min-width: 800px) {
     #config2 {
-        padding: 150px 200px;
-        font-size: x-large;
+        padding: 0px 50px ;
+        font-size: medium;
     }
 }
