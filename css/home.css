@@ -6,6 +6,7 @@
 .navbar-brand {
     font-size: xx-large;
     font-weight: bolder;
+    color: white!important;
 }
 
 .navbar-toggler {
@@ -16,49 +17,60 @@
     font-size: x-large;
 }
 
-
 .navbar-nav {
     /* align: right; */
 }
 
+.navbar-collapse {}
+
+#config0 {
+    background: -webkit-linear-gradient(to right, #141e30, #243b55)!important;
+    background-image: linear-gradient(to right, #141e30, #243b55)!important;
+}
 
 #config1 {
-    height: 500px;
-    padding-top: 200px;
+    height: 100%;
+    padding: 200px 0px;
     text-align: center;
     font-family: 'Syne Mono', monospace;
     color: white;
+   
 }
 
- .sticky {
+/* .sticky {
     position: fixed;
     width: 100%;
     margin-left: -15px;
-    background: -webkit-linear-gradient(to right, #141e30, #243b55); 
+    background: -webkit-linear-gradient(to right, #141e30, #243b55);
     background-image: linear-gradient(to right, #141e30, #243b55);
-} 
+} */
 
-
-#config2{
+#config2 {
     background-color: white;
-    height: 500px ;
+    height: 500px;
     padding: 150px 20px;
     text-align: center;
     font-size: large;
-    font-family: 'Open Sans', sans-serif;e;
+    font-family: 'Open Sans', sans-serif;
 }
 
 @media only screen and (max-width: 600px) {
-    #navbarText{
+    #navbarText {
         position: absolute;
-        margin-top: 220px;
+        margin-top: 240px;
         width: 150px;
-        background-color: #141e30 ;
+        background-color: #141e30;
+        padding: 5px 15px;
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
     }
 }
 
-@media only screen and (min-width: 800px){
-    #config2{
+@media only screen and (min-width: 800px) {
+    #config2 {
         padding: 150px 200px;
         font-size: x-large;
     }

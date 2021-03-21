@@ -8,7 +8,6 @@ body {
 canvas {
     display: block;
     vertical-align: bottom;
-    
 }
 
 /* ---- particles.js container ---- */
@@ -16,7 +15,7 @@ canvas {
 #particles-js {
     position: absolute;
     width: 100%;
-    height: 600px;
+    height: 100%;
     background: -webkit-linear-gradient(to right, #141e30, #243b55); /* Chrome 10-25, Safari 5.1-6 */    
     background-image: linear-gradient(to right, #141e30, #243b55);
     background-repeat: no-repeat;
