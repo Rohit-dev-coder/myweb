@@ -24,6 +24,11 @@ font-family: 'Montserrat', sans-serif; */
     font-size: large;
 }
 
+html {
+    scroll-behavior: smooth;
+    
+  }
+  
 ::-webkit-scrollbar {
     width: 15px;
 }
