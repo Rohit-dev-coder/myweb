@@ -9,6 +9,10 @@
     color: white!important;
 }
 
+#navbarText {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .navbar-toggler {
     background-color: white;
 }
@@ -20,17 +24,21 @@
 .navbar-nav {
     /* align: right; */
 }
-::-webkit-scrollbar{
+
+::-webkit-scrollbar {
     width: 15px;
 }
-::-webkit-scrollbar-track{
+
+::-webkit-scrollbar-track {
     background-color: #142850;
 }
-::-webkit-scrollbar-thumb{
+
+::-webkit-scrollbar-thumb {
     border-radius: 10px;
     background-color: #27496d;
 }
-::-webkit-scrollbar-thumb:hover{
+
+::-webkit-scrollbar-thumb:hover {
     border-radius: 10px;
     background-color: #00909e;
 }
@@ -49,7 +57,6 @@
     text-align: center;
     font-family: 'Syne Mono', monospace;
     color: white;
-   
 }
 
 /* .sticky {
@@ -69,6 +76,16 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.myimgself{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+
 @media only screen and (max-width: 600px) {
     #navbarText {
         position: absolute;
@@ -82,11 +99,22 @@
         -ms-border-radius: 15px;
         -o-border-radius: 15px;
     }
+    .myimgself{
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
+}
+
 }
 
 @media only screen and (min-width: 800px) {
     #config2 {
-        padding: 0px 50px ;
+        padding: 0px 50px;
         font-size: medium;
     }
+   
 }

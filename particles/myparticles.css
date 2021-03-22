@@ -27,7 +27,7 @@ canvas {
 
 /* ---- stats.js ---- */
 
-.count-particles {
+/* .count-particles {
     background: #000022;
     position: absolute;
     top: 48px;
@@ -41,7 +41,7 @@ canvas {
     padding-bottom: 2px;
     font-family: Helvetica, Arial, sans-serif;
     font-weight: bold;
-}
+} */
 
 .js-count-particles {
     font-size: 1.1em;
