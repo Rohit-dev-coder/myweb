@@ -21,7 +21,8 @@ canvas {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
-    
+    /* background-image: url(/images/AzureSpace1.jpg); */
+    background-image: url(../myweb/images/AzureSpace.jpg);
 }
 
 /* ---- stats.js ---- */
