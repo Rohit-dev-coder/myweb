@@ -22,7 +22,7 @@ canvas {
     background-size: cover;
     background-position: 50% 50%;
     /* background-image: url(/images/AzureSpace1.jpg); */
-    background-image: url(../myweb/images/AzureSpace.jpg);
+    background-image: url(../images/AzureSpace.png);
 }
 
 /* ---- stats.js ---- */
