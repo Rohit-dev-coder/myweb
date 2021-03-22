@@ -60,6 +60,10 @@ font-family: 'Montserrat', sans-serif; */
     color: white;
 }
 
+#particles-js{
+    background-image: url("/images/AzureSpace.png"); 
+}
+
 /* .sticky {
     position: fixed;
     width: 100%;
