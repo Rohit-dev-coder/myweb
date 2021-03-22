@@ -21,10 +21,10 @@ canvas {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
-    background-image: url(../images/spaceformobile.jpg);
     background-image: url(../images/AzureSpace1.jpg);
-    
 }
+
+
 @media only screen and (max-width: 600px) {
     #particles-js {
         background-image: url(../images/spaceformobile.jpg);
