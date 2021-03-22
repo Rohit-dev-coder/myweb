@@ -1,3 +1,6 @@
+/* font-family: 'Roboto Slab', serif;
+font-family: 'Montserrat', sans-serif; */
+
 .navbar {
     font-family: 'Akaya Telivigala', cursive;
     color: white;
@@ -18,12 +21,9 @@
 }
 
 .nav-item {
-    font-size: x-large;
+    font-size: large;
 }
 
-.navbar-nav {
-    /* align: right; */
-}
 
 ::-webkit-scrollbar {
     width: 15px;
@@ -45,14 +45,15 @@
 
 .navbar-collapse {}
 
-#config0 {
+#config0{
     background: -webkit-linear-gradient(to right, #141e30, #243b55)!important;
     background-image: linear-gradient(to right, #141e30, #243b55)!important;
+    
 }
 
 #config1 {
     height: 100%;
-    padding-top: 200px;
+    padding-top: 210px;
     padding-bottom: 290px;
     text-align: center;
     font-family: 'Syne Mono', monospace;
@@ -73,17 +74,24 @@
     padding: 0px 25px;
     text-align: center;
     font-size: large;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
 }
 
 .myimgself{
     width: 200px;
     height: 200px;
+    border: 3px solid #141e30;
+    padding: 2px;
     border-radius: 100px;
     -webkit-border-radius: 100px;
     -moz-border-radius: 100px;
     -ms-border-radius: 100px;
     -o-border-radius: 100px;
+}
+
+.myimgself:hover{
+    border: 0px solid #141e30;
 }
 
 @media only screen and (max-width: 600px) {
@@ -114,7 +122,8 @@
 @media only screen and (min-width: 800px) {
     #config2 {
         padding: 0px 50px;
-        font-size: medium;
+        font-size: large;
+        word-spacing: 10px;
     }
    
 }
