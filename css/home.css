@@ -124,6 +124,17 @@ html {
         background-image: linear-gradient(352deg, rgba(3, 0, 0, 1) 30%, rgba(3, 0, 0, 1) 30%, rgba(11, 11, 40, 1) 68%)!important;
     }
 }
+@media only screen and (max-width: 1200px) {
+    .myimgself {
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
+    }
+}
 
 @media only screen and (min-width: 800px) {
     #config2 {
@@ -135,6 +146,6 @@ html {
 }
 
 #config3 {
-    background-color: rgb(247, 235, 219);
+    /* background-color: rgb(247, 235, 219); */
     height: 600px;
 }
