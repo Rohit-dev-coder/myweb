@@ -105,6 +105,15 @@ html {
     height: 750px;
     padding-top: 40px;
 }
+@media only screen and (max-width: 382px) {
+    #config2 {
+        height: 700px;
+    }
+    #config1 {
+        height: 550px;
+    }
+}
+
 
 @media only screen and (max-width: 600px) {
     #navbarText {
