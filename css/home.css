@@ -97,6 +97,15 @@ html {
     border: 0px solid #141e30;
 }
 
+#config3 {
+    /* background-color: black; */
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: white;
+    height: 750px;
+    padding-top: 40px;
+}
+
 @media only screen and (max-width: 600px) {
     #navbarText {
         position: absolute;
@@ -123,6 +132,8 @@ html {
         background: rgb(3, 0, 0)!important;
         background-image: linear-gradient(352deg, rgba(3, 0, 0, 1) 30%, rgba(3, 0, 0, 1) 30%, rgba(11, 11, 40, 1) 68%)!important;
     }
+    
+
 }
 @media only screen and (max-width: 1200px) {
     .myimgself {
@@ -141,11 +152,12 @@ html {
         padding: 70px 50px;
         font-size: large;
         word-spacing: 10px;
-        height: 550px;
+        height: 600px;
     }
+    #config3 {
+        /* padding-top: 50px; */
+        height: 620px;
+    }
+    
 }
 
-#config3 {
-    /* background-color: rgb(247, 235, 219); */
-    height: 600px;
-}
