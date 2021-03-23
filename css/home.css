@@ -98,7 +98,7 @@ html {
 }
 
 #config3 {
-    /* background-color: black; */
+    background-color: black;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     color: white;
@@ -109,7 +109,7 @@ html {
 @media only screen and (max-width: 600px) {
     #navbarText {
         position: absolute;
-        margin-top: 240px;
+        margin-top: 290px;
         width: 150px;
         background-color: #141e30;
         padding: 5px 15px;
