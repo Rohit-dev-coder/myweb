@@ -105,12 +105,20 @@ html {
     height: 750px;
     padding-top: 40px;
 }
+
+
 @media only screen and (max-width: 382px) {
     #config2 {
         height: 700px;
     }
     #config1 {
         height: 550px;
+    }
+}
+
+@media only screen and (width: 360px) {
+    #config2 {
+        height: 650px;
     }
 }
 
@@ -123,20 +131,20 @@ html {
         background-color: #141e30;
         padding: 5px 15px;
         border-radius: 15px;
-        -webkit-border-radius: 15px;
-        -moz-border-radius: 15px;
-        -ms-border-radius: 15px;
-        -o-border-radius: 15px;
-    }
+        -webkit-border-radius:;
+        -moz-border-radius:;
+        -ms-border-radius:;
+        -o-border-radius:;
+}
     .myimgself {
         width: 100px;
         height: 100px;
         border-radius: 50px;
-        -webkit-border-radius: 50px;
-        -moz-border-radius: 50px;
-        -ms-border-radius: 50px;
-        -o-border-radius: 50px;
-    }
+        -webkit-border-radius:;
+        -moz-border-radius:;
+        -ms-border-radius:;
+        -o-border-radius:;
+}
     #config0 {
         background: rgb(3, 0, 0)!important;
         background-image: linear-gradient(352deg, rgba(3, 0, 0, 1) 30%, rgba(3, 0, 0, 1) 30%, rgba(11, 11, 40, 1) 68%)!important;
@@ -153,7 +161,7 @@ html {
         -moz-border-radius: 50px;
         -ms-border-radius: 50px;
         -o-border-radius: 50px;
-    }
+}
 }
 
 @media only screen and (min-width: 800px) {
