@@ -56,8 +56,8 @@ html {
 
 #config1 {
     height: 100%;
-    padding-top: 16rem;
-    padding-bottom: 15rem;
+    padding-top: 210px;
+    padding-bottom: 290px;
     text-align: center;
     font-family: 'Syne Mono', monospace;
     color: white;
@@ -105,8 +105,7 @@ html {
     height: 750px;
     padding-top: 40px;
 }
-
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 382px) {
     #config2 {
         height: 700px;
     }
@@ -115,14 +114,6 @@ html {
     }
 }
 
-@media only screen and (max-width: 382px) {
-    #config2 {
-        height: 550px;
-    }
-    #config1 {
-        height: 550px;
-    }
-}
 
 @media only screen and (max-width: 600px) {
     #navbarText {
@@ -170,7 +161,7 @@ html {
         padding: 70px 50px;
         font-size: large;
         word-spacing: 10px;
-        height: 30rem;
+        height: 600px;
     }
     #config3 {
         /* padding-top: 50px; */
