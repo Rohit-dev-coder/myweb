@@ -31,6 +31,23 @@
 //         header.classList.remove("sticky");
 //     }
 // };
+$(document).ready(function(){
+    $('#typewriteText').typewrite({
+        continuous : true,
+        blinkingCursor:true,
+        actions: [
+            {type: '( Computer Science Engineer )'},
+            {delay: 1500},
+            {remove: {num: 27, type: 'stepped'}},
+            {delay: 1300},
+            {type: 'Developer )'},
+            {delay: 2000},
+            {remove: {num: 11, type: 'stepped'}},
+            {type: 'Computer Science Engineer )'},
+        ]
+    });
+});
+
 
 
 
