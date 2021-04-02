@@ -127,7 +127,7 @@ html {
 }
 
 .skillstyle {
-    font-size: 1.5em;
+    font-size: 1.6em;
     text-align: left;
 }
 
@@ -152,8 +152,30 @@ html {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     color: white;
-    padding-top: 50px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.contactconfig {
+    text-align: center;
     padding-bottom: 50px;
+    font-size: 1.5em;
+    color: white;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(184deg, rgba(0, 0, 0, 1) 45%, rgba(11, 11, 40, 1) 46%);
+}
+
+.formstyle {
+    background: rgb(144, 3, 3);
+    background: linear-gradient(207deg, rgba(144, 3, 3, 1) 20%, rgba(16, 6, 74, 1) 78%);
+    padding: 30px;
+    font-weight: bolder;
+    text-align: left;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 @media only screen and (max-width: 382px) {
@@ -169,6 +191,10 @@ html {
     .skillheadstyle {
         font-size: 1.5em;
         text-align: left;
+    }
+    .config5 {
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
 }
 
@@ -186,19 +212,19 @@ html {
         background-color: #141e30;
         padding: 5px 15px;
         border-radius: 15px;
-        -webkit-border-radius: ;
-        -moz-border-radius: ;
-        -ms-border-radius: ;
-        -o-border-radius: ;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
     }
     .myimgself {
         width: 100px;
         height: 100px;
         border-radius: 50px;
-        -webkit-border-radius: ;
-        -moz-border-radius: ;
-        -ms-border-radius: ;
-        -o-border-radius: ;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
     }
     #config0 {
         background: rgb(3, 0, 0)!important;

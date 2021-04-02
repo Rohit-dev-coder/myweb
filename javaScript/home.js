@@ -35,7 +35,9 @@ $(document).ready(function(){
     $('#typewriteText').typewrite({
         continuous : true,
         blinkingCursor:true,
-        actions: [
+        actions: 
+        [
+            {delay: 1000},
             {type: '( Computer Science Engineer )'},
             {delay: 1500},
             {remove: {num: 27, type: 'stepped'}},
@@ -47,6 +49,20 @@ $(document).ready(function(){
         ]
     });
 });
+
+
+let email,usrmessage;
+function sendmsg(){
+    email = $('#Email1').val();
+    usrmessage = $('#msgarea').val();
+    var data = {
+        email: email,
+        message: usrmessage,
+    };
+    console.log(data);
+    // $.post("Servlet", data, processresponse);
+}
+
 
 
 

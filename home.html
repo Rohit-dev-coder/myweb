@@ -85,7 +85,7 @@
                 </li>
             </ul>
             <div class="btn-group mt-2">
-                <button class="btn btn-success btn-sm">Contact Me</button>
+                <a href="#contactme"><button class="btn btn-success btn-sm">Contact Me</button></a>
             </div>
 
         </div>
@@ -204,7 +204,6 @@
                                 <b>BackEnd: </b>JAVA<br>
                                 <b>Database: </b>Postgresql<br>
                             </p>
-
                         </div>
                     </div>
                 </div>
@@ -214,7 +213,7 @@
                         <div class="card-body">
                             <h5 class="card-title"><b>E - Voting</b></h5>
                             <p class="card-text" style="text-align: left;">
-                                A Web Application, Where Candidates can vote their Selective persons.
+                                A Web Application, Where voter can vote their candidate.
                                 <br><br>
                                 <b>FrontEnd: </b>HTML, CSS, JS, AJAX, bootstrap<br>
                                 <b>BackEnd: </b>JAVA<br>
@@ -355,36 +354,66 @@
                 </div>
             </div>
         </div>
+        <br><br>
     </section>
+
+
+
+    <section id="contactme" class="contactconfig">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 align-self-center" style="font-family: 'Roboto Slab', serif;">
+                    <h1><br></h1>
+                    <h1>Contact Me</h1>
+                </div>
+                <div class="col-lg-6 mt-2">
+                    <form class="formstyle">
+                        <div class="form-group">
+                            <label for="Email">Email address</label>
+                            <input type="email" class="form-control" id="Email1" aria-describedby="emailHelp"
+                                placeholder="Enter email">
+                        </div>
+                        <div class="form-group">
+                            <label for="Textarea">Enter Message</label>
+                            <textarea class="form-control" id="msgarea" rows="7" style="resize: none;" placeholder="Enter your message here.."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-success btn-lg" onclick="sendmsg()">Submit</button>
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <!-- <br> -->
     <section id="myfooter" class="configfooter">
         <div class="container-fluid">
             <div class="row">
                 <div class="col">
-                    <center>
-                        <p style="color: rgba(220, 220, 220, 0.479);">Feel free to Connect</p>
-                    </center>
+                    <!-- <center> -->
+                    <p style="color: rgba(220, 220, 220, 0.479);">Feel free to Connect</p>
+                    <!-- </center> -->
                 </div>
             </div>
             <div class="row">
                 <!-- <div class="col-4"></div> -->
                 <div class="col-12">
-                    <a href="https://github.com/Rohit-dev-coder"><img src="images/githubicon.jpeg"
+                    <a href="https://github.com/Rohit-dev-coder" target="_blank"><img src="images/githubicon.jpeg"
                             style="width: 2rem;"></a>
-                    <a href="https://in.linkedin.com/in/rohit-jarariya-961768166"><img src="images/linkedinicon.png"
-                            style="width: 2rem; margin-left: 10px;"></a>
-                    <a href="https://www.instagram.com/rohit_jarariya/"><img src="images/instagramicon.png"
-                            style="width: 2rem; margin-left: 10px;"></a>
-                    <a href="https://www.facebook.com/rohit.jarariya/"><img src="images/Facebooklogo.png"
-                            style="width: 2rem; margin-left: 10px;"></a>
+                    <a href="https://in.linkedin.com/in/rohit-jarariya-961768166" target="_blank"><img
+                            src="images/linkedinicon.png" style="width: 2rem; margin-left: 10px;"></a>
+                    <a href="https://www.instagram.com/rohit_jarariya/" target="_blank"><img
+                            src="images/instagramicon.png" style="width: 2rem; margin-left: 10px;"></a>
+                    <a href="https://www.facebook.com/rohit.jarariya/" target="_blank"><img
+                            src="images/Facebooklogo.png" style="width: 2rem; margin-left: 10px;"></a>
                 </div>
                 <!-- <div class="col-4"></div> -->
             </div>
             <br><br>
             <div class="row">
                 <div class="col" style="color: white;">
-                    <p>Copyright 2021 Rohit jarariya. All Rights Reserved.</p>
+                    <p>Copyright@2021 Rohit jarariya. All Rights Reserved.</p>
                 </div>
             </div>
         </div>
